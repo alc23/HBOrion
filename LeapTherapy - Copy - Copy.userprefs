@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Downloads\LeapFlyingSinglePlayer_Windows\Windows\ProjectFiles\Assets\Scripts\Leap\LeapUnityExtensions.cs">
+    <Files>
+      <File FileName="Assets\Leap Games\Flying\LeapFly.cs" Line="59" Column="10" />
+      <File FileName="..\..\Downloads\LeapFlyingSinglePlayer_Windows\Windows\ProjectFiles\Assets\Scripts\Leap\LeapUnityExtensions.cs" Line="23" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

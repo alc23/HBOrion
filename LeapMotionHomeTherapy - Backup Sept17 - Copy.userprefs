@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Leap Games\Soccer\Scripts\BallGenerator.cs">
+    <Files>
+      <File FileName="Assets\Leap Games\Car\CarMovement.cs" Line="76" Column="94" />
+      <File FileName="Assets\Leap Games\Maze\Scripts\CharAnimation.cs" Line="13" Column="37" />
+      <File FileName="Assets\Leap Games\Car\Speed.cs" Line="17" Column="121" />
+      <File FileName="Assets\Leap Games\Flying\Scripts\FlyingScore.cs" Line="36" Column="1" />
+      <File FileName="Assets\Leap Games\Soccer\Scripts\BallGenerator.cs" Line="48" Column="106" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

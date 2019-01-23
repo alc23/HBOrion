@@ -1,0 +1,685 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{CFF2C877-57F7-01F6-C0F7-82AF3A8A7AE8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_6;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Unity5.5.4/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Unity5.5.4/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Fantasy Skybox FREE\Scripts\FSPlayer.cs" />
+     <Compile Include="Assets\Games\EndlessFlying\Scripts\PlaneRotate.cs" />
+     <Compile Include="Assets\Games\EndlessFlying\Scripts\Propeller.cs" />
+     <Compile Include="Assets\GripperGames\CollisionDistance.cs" />
+     <Compile Include="Assets\Leap Games\ApplicationEnd.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\BallProximity.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\BowlingScore.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\GestureBall.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\HandValuesBowl.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\PlayHit.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\PlayMovBowling.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\ReloadBowling.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\RestartOnHit.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\ScaleBowling.cs" />
+     <Compile Include="Assets\Leap Games\Bowling\Scripts\ToggleBowlingGUI.cs" />
+     <Compile Include="Assets\Leap Games\ButtonSkip.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\BarMovement.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\FullBarMovement.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\LoadCalibLevel.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\PitchCalibration.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\RadiusCalibration.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\Return.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\RollCalibration1.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\XCalibration.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\YBarMovement.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\YCalibration.cs" />
+     <Compile Include="Assets\Leap Games\Calibration\Scripts\YawCalibration.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\CarHealth.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\CarJumpAngle.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\CoinRotate.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\ConstantSpeedCar.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\DetectSpeedBump.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\EndLevel.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\FlipRestart.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\GestureCarMove.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\GestureHandValuesCar.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\HideInstructions.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\MadeitOver.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\MenuManagerCar.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\NextCarLevel.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\NoRollGestureCarMove.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\PlaceCoins.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\PlaceSpeedBumps.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\PlayMovCar.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\RacerSpeed.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\RestHandNotification.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\ScoreTxt.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\Speed.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\SpeedTxt.cs" />
+     <Compile Include="Assets\Leap Games\Car\Scripts\TimerTxt.cs" />
+     <Compile Include="Assets\Leap Games\Epoch.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\CloseToObject.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\CollectOrb.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\FFPlaneGas.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\FFScoreTxt.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\FFTimerTxt.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\FingerFlyScore.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\Finger_Fly_HandValues.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\Finger_Fly_MovePlane.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\Finger_Flying_GasLevel.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\GasCanPlacement.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\NextLvl_Alg.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\RadialGas.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\Rotate_Ring.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\StarPlacement.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Finger_Flying\TriggerRestart.cs" />
+     <Compile Include="Assets\Leap Games\Flying\PlanetSaving\PinchShoot.cs" />
+     <Compile Include="Assets\Leap Games\Flying\PlanetSaving\SendEmail.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\Bobbing.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\CollideRestart.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\ColorIndication.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\FlyingScore.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\GestureFly\GesturePitchHandValuesFly.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\GestureFly\GestureUpDown.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\GestureFly\PlayMovGestureFly.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\HandValuesFlying.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\HorizFly\CrashRestart.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\HorizFly\GestureLocknoY.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\HorizFly\HorizHandValuesFly.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\HorizFly\HorizPlayMov.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\HorizFly\LockedYOrbPlacement.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\LeapFly.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\LeapFlyOneHand.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\LoadLevel.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\LockedOrbDestroy.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\NextFlyingLevel.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\OrbDestroy.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\OrbPlacement.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\OrbPlacementCity.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\Orbit.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\CameraFollowSide.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\GestureLocknoX.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\NextPitchLevel.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\OrbLockGesture.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\OrbLockVert.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\OrbLockVert2.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\PitchHandValuesFly.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\PlayMovPitchFly.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\ReloadBoringLevel.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\PitchFly\RotatePlane.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\SwitchFlyingType.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\Thruster.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\ToggleFlyingGUI.cs" />
+     <Compile Include="Assets\Leap Games\Flying\Scripts\TriggerScore.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\BasketProximity.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\BasketRotation.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\CatchFruitHandValues.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\CatchFruitHandValuesL.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\CatchFruitPlayMov.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\CatchFruitPlayMovLeft.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\CubePos.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\Destroy.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\DetectApples.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\DetectOranges.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\FreezeOranges.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\FreezePickedApple.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\FruitScoreCount.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\GroundManager.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\HandValuesFruit.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\MagnetCatch.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\MagneticPinching.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\PickFruitHandData.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\PickFruitHandScaling.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\PickFruitScore.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\PinchMagnet.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\PlayMovPickFruit.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\ReceiveTimerData.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\ScaleBasketMovement.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\ScaleBasketMovementLeft.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\ScaleFruitFall.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\ToggleGUI.cs" />
+     <Compile Include="Assets\Leap Games\FruitFall\Scripts\UnfreezeFruit.cs" />
+     <Compile Include="Assets\Leap Games\HandDisconnect.cs" />
+     <Compile Include="Assets\Leap Games\HighScores\RetrieveHighScore.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\CharAnimation.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\FingerFlyScore.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\GameOver.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\HandValuesMaze.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\LoadScore.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\MoveChar.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\MoveWall.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\NextLevel.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\OrbDestroy1.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\PowerUpRotate.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\SaveScore.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\SphereSaveScore.cs" />
+     <Compile Include="Assets\Leap Games\Maze\Scripts\ToggleMazeGUI.cs" />
+     <Compile Include="Assets\Leap Games\Menu\EnterPlayer.cs" />
+     <Compile Include="Assets\Leap Games\Menu\GameControl.cs" />
+     <Compile Include="Assets\Leap Games\Menu\LoadBowling.cs" />
+     <Compile Include="Assets\Leap Games\Menu\LoadFlying.cs" />
+     <Compile Include="Assets\Leap Games\Menu\LoadFruit.cs" />
+     <Compile Include="Assets\Leap Games\Menu\LoadWAM.cs" />
+     <Compile Include="Assets\Leap Games\Menu\SaveandLoad.cs" />
+     <Compile Include="Assets\Leap Games\PauseT.cs" />
+     <Compile Include="Assets\Leap Games\ServerLoginRequest.cs" />
+     <Compile Include="Assets\Leap Games\Simon\GameManager.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\BallDestroy.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\BallGenerator.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\BallGravity.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\CameraShake.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\GroundCollision.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\HandValuesSoccer.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\PlayMovSoccer.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\PlaySuccess.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\ScaleBall.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\ScaleSoccer.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\ShootBall.cs" />
+     <Compile Include="Assets\Leap Games\Soccer\Scripts\ToggleSoccerGUI.cs" />
+     <Compile Include="Assets\Leap Games\SortingBloks\ConfirmLightBlue.cs" />
+     <Compile Include="Assets\Leap Games\SortingBloks\PickUpBlock.cs" />
+     <Compile Include="Assets\Leap Games\Testing\EnableDisableData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenAccuracy\TraceBall.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenAccuracy\TraceBallData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenRange\Scripts\CheckHandOpen.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenRange\Scripts\HandOpenCount.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenRange\Scripts\HandOpenParticle.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenRange\Scripts\HandOpeningPrint.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenSpeed\BallHeight.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenSpeed\BarScript.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenSpeed\ChangeColorCollision.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenSpeed\SpeedHandData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandOpenSpeed\SphereCollision.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandPitchAccuracy\PitchAccuracyData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandPitchAccuracy\PitchBallTrace.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandPitchRange\CheckHandPitch.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandPitchRange\HandPitchCount.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandPitchRange\TestHandPitchData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandPitchSpeed\PitchBallHeight.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandPitchSpeed\PitchSpeedData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandPitchSpeed\YawSpeedData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandYawAccuracy\YawTrace.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandYawAccuracy\YawTraceData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandYawRange\Scripts\CheckHandYaw.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandYawRange\Scripts\HandYawCount.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandYawRange\Scripts\HandYawParticle.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandYawRange\Scripts\HandYawRangePrint.cs" />
+     <Compile Include="Assets\Leap Games\Testing\HandYawSpeed\YawBallHeight.cs" />
+     <Compile Include="Assets\Leap Games\Testing\RollAccuracy\RollTraceBall.cs" />
+     <Compile Include="Assets\Leap Games\Testing\RollAccuracy\RollTraceBallData.cs" />
+     <Compile Include="Assets\Leap Games\Testing\RollRange\CheckHandRoll.cs" />
+     <Compile Include="Assets\Leap Games\Testing\RollRange\RollCount.cs" />
+     <Compile Include="Assets\Leap Games\Testing\TestHandValues.cs" />
+     <Compile Include="Assets\Leap Games\ToggleHandDisconnect.cs" />
+     <Compile Include="Assets\Leap Games\TogglePause.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\DetectDepth.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\DetectMoles.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\FrontEndManager.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\HandValuesWAM.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\LeftHandValuesWAM.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\LeftOverseer.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\LeftPlayMovWAM.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\Overseer.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\PlayMovWAM.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\Preferences.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\ReactorCore.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\ToggleWAMGUI.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\WAMScaling.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\WAMScaling1.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\WAMScalingFixedPos.cs" />
+     <Compile Include="Assets\Leap Games\Whack A Mole\Scripts\WAMScalingLeft.cs" />
+     <Compile Include="Assets\Leap Games\WriteJSON.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SlidingMax.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedFloat.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedQuaternion.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Algorithms\SmoothedVector3.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\AutoFindAttribute.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\CombinablePropertyAttribute.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\Disable.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\DisableIf.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\EnumFlags.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\Incrementable.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\MaxValue.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\MinMax.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\MinValue.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Attributes\UnitsAttribute.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\MinHeap.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\ProduceConsumeBuffer.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\RingBuffer.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DataStructures\SerializableDictionary.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\AbstractHoldDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\Detector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\DetectorLogicGate.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\ExtendedFingerDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\FingerDirectionDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\PalmDirectionDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\PinchDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\DetectionUtilities\ProximityDetector.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandFactory.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandPool.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandProxy.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\HandRepresentation.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\CapsuleHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\DebugHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\FingerModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandDrop.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandEnableDisable.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandFader.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\HandTransitionBehavior.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\IHandModel.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\RigidHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalFinger.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\SkeletalHand.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Hands\TestHandFactory.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapDeviceInfo.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapHandController.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapImageRetriever.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapProvider.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\LeapServiceProvider.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\AssertHelper.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\DisconnectionNotice.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\EnableDepthBuffer.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\ExecutionOrder.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\FitHeightToScreen.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\FrameRateControls.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\KeyEnableBehaviors.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\KeyEnableGameObjects.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\LeapUnityExtensions.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\RuntimeColliderGizmos.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\RuntimeGizmoManager.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\RuntimeGizmoToggle.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\SceneSettings.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\StretchToScreen.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\Utils\Utils.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\EyeType.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRCameraControl.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\LeapVRTemporalWarping.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\TemporalWarpingStatus.cs" />
+     <Compile Include="Assets\LeapMotion\Scripts\VR\VRHeightOffset.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerImplementations\HoldingPoseControllerKabsch.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerImplementations\LayerControllerCustom.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerImplementations\MoveToControllerKinematic.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerImplementations\MoveToControllerVelocity.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerImplementations\SuspensionControllerDefault.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerImplementations\ThrowingControllerPalmVelocity.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerImplementations\ThrowingControllerSlidingWindow.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerInterfaces\IControllerBase.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerInterfaces\IHoldingPoseController.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerInterfaces\ILayerController.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerInterfaces\IMoveToController.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerInterfaces\ISuspensionController.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\ControllerInterfaces\IThrowingController.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviour.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\ActivityManager.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\ActivityMonitor.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\IInteractionBehaviour.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\InteractionBehaviourBase.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\InteractionBrushBone.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\InteractionBrushHand.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\InteractionGraspDetector.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\InteractionGraspEvents.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionBehaviours\InteractionHandEvents.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionC\InteractionC.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionC\KabschC.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionC\Logger.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionManager.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\InteractionMaterial.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\BaseCallGuard.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\ControllerContainer.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\HandArrayBuilder.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\LdatLoader.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\PhysicMaterialReplacer.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\PhysicsUtility.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\ReadonlyList.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\RigidbodyWarper.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\ShapeDescriptionPool.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\SingleLayer.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Utility\StructAllocator.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\ActivityManagerValidation.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionBehaviourBaseValidation.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionBehaviourValidation.cs" />
+     <Compile Include="Assets\LeapMotionModules\InteractionEngine\Scripts\Validation\InteractionManagerValidation.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
+     <Compile Include="Assets\Panel_Manager.cs" />
+     <Compile Include="Assets\PauseFingerFly.cs" />
+     <Compile Include="Assets\PlayerScoreList.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\BloomComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\FogComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\GrainComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\TaaComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\BloomModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\FogModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\GrainModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\UserLutModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Models\VignetteModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingComponent.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingContext.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingModel.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\PostProcessingProfile.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\CameraSwitch.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\LevelReset.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+     <Compile Include="Assets\ScoreManager.cs" />
+     <Compile Include="Assets\TogglePauseMaze.cs" />
+     <Compile Include="Assets\ToonBot\Cartoon_Race_Car_03\Scripts\Logo.cs" />
+     <Compile Include="Assets\ToonBot\Cartoon_Race_Car_03\Scripts\OrbitCamera.cs" />
+     <Compile Include="Assets\ToonBot\ToonBot(Free) Assets\Controller\RobotTestScriptFree.cs" />
+     <Compile Include="Assets\UDPReceive.cs" />
+     <Compile Include="Assets\UDPSend.cs" />
+     <Compile Include="Assets\WindowManager.cs" />
+     <Compile Include="Assets\toggleText.cs" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\LeapMotion\Resources\LeapCG.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Fog.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\LeapMotion\README_BEFORE_UPDATING.txt" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\NatureStarterKit2\info.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\Projectors\Guidelines.txt" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\MotionBlur.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\ACES.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+     <None Include="Assets\LeapMotion\readme.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\LeapMotion\Resources\RuntimeGizmos.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Uber.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\DiffuseReflectiveShader.shader" />
+     <None Include="Assets\city_lowpoly\city_lowpoly.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Blit.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Standard Assets\Vehicles\Aircraft\AircraftGuidelines.txt" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+     <None Include="Assets\LeapMotion\Dependencies.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\Shaders\ReflectiveDiffuseSpec.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+     <None Include="Assets\LeapMotion\Resources\ThresholdOverlay.shader" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\TSF\Shaders\TSFOutline.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Common.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughForeground.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\Fonts\OpenSans\License!.txt" />
+     <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\TSF\Shaders\TSF.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+     <None Include="Assets\LeapMotion\Resources\PassthroughBackground.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.cginc" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Fantasy Skybox FREE\Readme\Readme.txt" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Confetti FX\Readme.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+     <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\GrainGen.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\FXAA.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\VortexEffect.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\Bloom.shader" />
+     <None Include="Assets\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+     <None Include="Assets\LeapMotion\Version.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\LeapMotion\Resources\VertexOffsetShader.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
+     <None Include="Assets\Movinarc\PackageUninstaller\README.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Unity5.5.4/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Unity5.5.4/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Unity5.5.4/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Unity5.5.4/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Unity5.5.4/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Unity5.5.4/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="LeapCSharp.NET3.5">
+ <HintPath>C:/Users/admin/Documents/GitHub/HB- Orion/HB_Orion/Assets/Plugins/LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{2B5F00BD-9353-D422-57D0-074CF86833D7}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{1EC7D00E-B513-DF42-6288-9FBCE21783EA}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
